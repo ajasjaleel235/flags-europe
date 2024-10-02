@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    text-decoration: none;
+}
+
+body{
+    background-color: #ddf8ee;
+}
+
+.top{
+    background-color: #93B1A6;
+    height: 5vh;
+}
+.main{
+    background-color: #040D12;
+    color: #9cc2c2;
+    height: 30vh;
+}
+
+h1{
+    font-size: 55px;
+    font-weight: 900;
+    position: relative;
+    top: 50px;
+    left: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Norway{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+}
+
+.Norway-main{
+    background-color: #ef2b2d;
+    width: 275px;
+    height: 200px;
+    position: relative;
+}
+
+.Norway-ho{
+    background-color: white;
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    top: 75px;
+}
+
+.Norway-ver{
+    background-color: white;
+    width: 50px;
+    height: 100%;
+    position: absolute;
+    left: 75px;
+}
+
+.Norway-ho div{
+    background-color: #002868;
+    position: relative;
+    width: 100%;
+    height: 25px;
+    top: 12.5px;
+    z-index: 2;
+}
+
+.Norway-ver div{
+    background-color: #002868;
+    position: relative;
+    width: 25px;
+    height: 100%;
+    left: 12.5px;
+}
+
+.Norway-p{
+    font-size: 20px;
+    position: relative;
+    top: 200px;
+    text-align: center;
+}
+
+.austria-main{
+    background-color: #ed2939;
+    width: 225px;
+    height: 150px;
+    position: relative;
+}
+
+.austria-main > div{
+    background-color: #ffffff;
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    top: 50px;
+}
+
+.austria{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+}
+
+.austria-p{
+    font-size: 20px;
+    position: relative;
+    top: 200px;
+    text-align: center;
+}
+
+@media (max-width:1200px)  {
+    .austria{
+        position: absolute;
+        top: 80%;
+        left: 10%;
+    }
+
+    .Norway{
+        position: absolute;
+        top: 50%;
+        left: 10%;
+    }
+
+}
