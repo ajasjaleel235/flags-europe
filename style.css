@@ -9,6 +9,7 @@ p{
 
 body{
     background-color: #ddf8ee;
+    overflow-x: hidden;
 }
 
 .top{
@@ -111,7 +112,8 @@ h1{
     text-align: center;
 }
 
-@media (max-width:1200px)  {
+@media (max-width:900px)  {
+
     .austria{
         position: absolute;
         top: 90%;
@@ -123,5 +125,6 @@ h1{
         top: 50%;
         left: 10%;
     }
+  
 
 }
